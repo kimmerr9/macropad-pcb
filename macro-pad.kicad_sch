@@ -1617,6 +1617,28 @@
 		)
 		(uuid "f8c9264b-8a35-4a3e-988a-eee988264eb8")
 	)
+	(global_label "row2"
+		(shape input)
+		(at 154.94 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "154a504d-086a-4469-a831-42dbf313635e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4796 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row1"
 		(shape input)
 		(at 119.38 123.19 0)
@@ -1683,6 +1705,28 @@
 			)
 		)
 	)
+	(global_label "row1"
+		(shape input)
+		(at 154.94 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4be868f3-567b-4573-93c0-2a6b60aff8e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4796 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row0"
 		(shape input)
 		(at 119.38 106.68 0)
@@ -1701,6 +1745,94 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 154.94 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "645fd1f6-d518-43bb-a868-68ac7ba2bba5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.8425 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 154.94 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66fcd1af-c892-48b6-b727-8b7caf023017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.8425 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 154.94 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e4ca6dc-08eb-4c46-98d9-fdb1a9839b15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.8425 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 154.94 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2d5d00e-d50e-4cb4-b7ab-f402c29c1abd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4796 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2127,7 +2259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -2171,7 +2303,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico_W")
-		(at 162.56 115.57 0)
+		(at 177.8 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2180,7 +2312,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a22fa51-f67a-4efe-9837-cddea35626ba")
 		(property "Reference" "A2"
-			(at 164.7033 149.86 0)
+			(at 179.9433 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2321,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico_W"
-			(at 164.7033 152.4 0)
+			(at 179.9433 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2331,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
-			(at 162.56 162.56 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2340,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 162.56 165.1 0)
+			(at 177.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2349,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
-			(at 162.56 167.64 0)
+			(at 177.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.22 113.03 0)
 			(effects
 				(font
@@ -2536,7 +2668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 93.98 129.54 0)
 			(effects
 				(font
@@ -2692,7 +2824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -2760,7 +2892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 93.98 96.52 0)
 			(effects
 				(font
@@ -2916,7 +3048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -3072,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -3228,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -3296,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.22 96.52 0)
 			(effects
 				(font
